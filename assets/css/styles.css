@@ -17,6 +17,9 @@ font-family: "Lato", sans-serif;
 header{
     background-color:aquamarine;
 }
+h1 {
+    font-family: "Oswald", sans-serif;
+}
 main {
     background-color: pink;
     /*makes main bigger to push footer to bottom of page*/
