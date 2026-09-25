@@ -8,7 +8,7 @@
 body{ 
 min-height: 100vh;
 display: flex;
-flex-direction:column;
+flex-direction: column;
 /*general project styles*/
 color: #3a3a3a;
 font-family: "Lato", sans-serif;
@@ -29,16 +29,22 @@ header a {
 }
 h1 {
     font-family: "Oswald", sans-serif;
-    text-transform:uppercase;
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
 main {
-    background-color: pink;
+    background-color: lightblue;
     /*makes main bigger to push footer to bottom of page*/
     flex: 1 0 auto;
 }
 footer {
 
-    background-color: purple;
+    background-color: orange;
 }
