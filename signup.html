@@ -56,8 +56,9 @@
 
     <!--main is for the bulk of the webpage-->
     <main>
+
       <section id="signup">
-        <form id="signup-form">
+        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
           <h2>Let's get you set up!</h2>
             <label for="first-name">First Name</label>
             <input type="text" id="first-name" required>
@@ -67,10 +68,25 @@
             <br>
             <label for="email">Email Address</label>
             <input type="text" id="email" required>
+            <br>
 
-          
-        </form>
+            <div class="radio-buttons">
+              <label for="road">Road</label>
+              <input type="radio" id="road" name="running-preference" required checked>
+            </div>
+            <div class="radio-buttons">
+              <label for="trail">Trail</label>
+              <input type="radio" id="trail" name="running-preference">
+            </div>
+            <div class="radio-buttons">
+              <label for="both">Both</label>
+              <input type="radio" id="both" name="running-preference">
+            </div>
+            
+            <input type="submit" class="join-button" value="Let's Run!">
+          </form>
       </section>
+
     </main>
 
     <!--footer used for extra-->
