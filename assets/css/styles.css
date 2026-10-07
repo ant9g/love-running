@@ -93,7 +93,23 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    /*Add margin at top to prevent content from being covered by the header*/
+    margin-top: 47px;
+    /*enable flex properties for child elements*/
+    flex-direction: column;
 }
+
+/*Form*/
+
+#signup {
+    background-image: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+
 
 /* Hero section */
 #hero {
@@ -324,3 +340,4 @@ main {
         align-self: flex-end;
     }
 }
+
