@@ -96,6 +96,7 @@ main {
     /*Add margin at top to prevent content from being covered by the header*/
     margin-top: 47px;
     /*enable flex properties for child elements*/
+    display: flex;
     flex-direction: column;
 }
 
@@ -108,6 +109,8 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
+
+
 
 
 
